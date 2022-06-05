@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "qe-contador-estabelecimento",
+      "connection": "srvfiap40scjc_SERVICEBUS"
+    }
+  ]
+}
